@@ -3,23 +3,111 @@
 
 @import "minima";
 
-/* Custom overrides */
+/* ---------------------------
+   Theme colors (DARK DEFAULT)
+   --------------------------- */
+:root {
+  --color-bg: #05070b;
+  --color-text: #f3f4f6;
+  --color-muted: #9ca3af;
+  --color-border: #1f2933;
+  --color-accent: #60a5fa;
+  --color-header-bg: #05070b;
+  --color-footer-bg: #05070b;
+}
+
+/* Light theme overrides */
+:root[data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-text: #111827;
+  --color-muted: #4b5563;
+  --color-border: #e5e7eb;
+  --color-accent: #2563eb;
+  --color-header-bg: #ffffff;
+  --color-footer-bg: #f9fafb;
+}
+
+/* Apply theme */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
-.site-title {
-  font-weight: 700;
+a {
+  color: var(--color-accent);
 }
 
-/* Make project headings stand out */
-.page-content h2 {
-  margin-top: 2rem;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.3rem;
+a:hover {
+  text-decoration: none;
+  opacity: 0.9;
 }
 
-/* Optional: narrow the content for readability */
+.site-header,
+.site-footer {
+  background-color: var(--color-header-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  border-bottom: none;
+  background-color: var(--color-footer-bg);
+}
+
+.page-content {
+  color: var(--color-text);
+}
+
+.page-content p {
+  color: var(--color-muted);
+}
+
+/* Layout tweaks */
 .wrapper {
-  max-width: 900px;
+  max-width: 960px;
+}
+
+/* ---------------------------
+   Header + toggle layout
+   --------------------------- */
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.site-nav .page-link {
+  text-transform: none;
+}
+
+/* Toggle button */
+.theme-toggle {
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.theme-toggle-icon {
+  margin-right: 0.25rem;
+  font-size: 0.95rem;
 }
