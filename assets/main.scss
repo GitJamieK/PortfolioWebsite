@@ -108,7 +108,7 @@ a:focus {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  position: relative; /* for the floating mobile menu window */
+  position: relative; /* for the floating menu window */
 }
 
 .site-title {
@@ -117,30 +117,7 @@ a:focus {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   opacity: 0.85;
-  white-space: nowrap; /* stop wrapping on desktop */
-}
-
-.site-nav {
-  display: flex;
-  gap: 1.5rem;
-  background: transparent !important;
-}
-
-.site-nav .page-link {
-  font-size: 0.95rem;
-  letter-spacing: 0.03em;
-  color: var(--color-text);
-  background: transparent;
-  border: none;
-}
-
-/* Desktop nav / mobile nav visibility */
-.site-nav-desktop {
-  display: flex;
-}
-
-.site-nav-mobile {
-  display: none;
+  white-space: nowrap;
 }
 
 /* ============================================================
@@ -178,10 +155,9 @@ a:focus {
 }
 
 /* ============================================================
-   MOBILE NAV TOGGLE (PILL STYLE)
+   MENU TOGGLE (PILL STYLE) – DESKTOP + MOBILE
    ============================================================ */
 .nav-toggle {
-  display: none; /* hidden on desktop */
   border-radius: 999px;
   border: 1px solid var(--color-border);
   background: transparent;
@@ -189,7 +165,7 @@ a:focus {
   padding: 0.25rem 0.9rem;
   font-size: 0.85rem;
   cursor: pointer;
-  display: none;
+  display: flex;
   align-items: center;
   gap: 0.35rem;
 }
@@ -202,7 +178,7 @@ a:focus {
   font-size: 1rem;
 }
 
-/* Floating mobile menu "window" */
+/* Floating menu "window" */
 .site-nav-mobile {
   position: absolute;
   top: calc(100% + 0.5rem);
@@ -224,7 +200,7 @@ a:focus {
   font-size: 0.95rem;
 }
 
-/* Show mobile nav when .nav-open is on <html> */
+/* Show menu when .nav-open is on <html> */
 .nav-open .site-nav-mobile {
   display: flex;
 }
@@ -245,17 +221,8 @@ a:focus {
     gap: 1rem;
   }
 
-  /* Slightly smaller title so it stays on one line */
   .site-title {
     font-size: 0.8rem;
     letter-spacing: 0.06em;
-  }
-
-  .site-nav-desktop {
-    display: none;
-  }
-
-  .nav-toggle {
-    display: flex;
   }
 }
