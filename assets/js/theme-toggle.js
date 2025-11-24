@@ -20,7 +20,7 @@
     }
   }
 
-  // Default to dark if no preference saved
+  // Default to DARK if nothing saved
   const storedTheme = window.localStorage.getItem(STORAGE_KEY);
   const initialTheme = storedTheme === "light" ? "light" : "dark";
   applyTheme(initialTheme);
