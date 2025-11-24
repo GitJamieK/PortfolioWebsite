@@ -8,30 +8,32 @@
     </div>
 
     <div class="header-right">
-      <!-- Menu button (desktop + mobile) -->
-      <button
-        id="nav-toggle"
-        class="nav-toggle"
-        type="button"
-        aria-label="Toggle navigation"
-        aria-expanded="false"
-      >
-        <span class="nav-toggle-icon">☰</span>
-        <span class="nav-toggle-label">Menu</span>
-      </button>
+      <!-- Menu button + dropdown grouped together -->
+      <div class="menu-wrapper">
+        <button
+          id="nav-toggle"
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-icon">☰</span>
+          <span class="nav-toggle-label">Menu</span>
+        </button>
 
-      <!-- Theme toggle (always on the far right) -->
+        <!-- Floating menu window (anchored to the Menu button) -->
+        <nav class="site-nav-mobile" id="site-nav-mobile">
+          <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
+          <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+          <a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>
+        </nav>
+      </div>
+
+      <!-- Theme toggle (always far right) -->
       <button id="theme-toggle" class="theme-toggle" type="button">
         <span class="theme-toggle-icon">🌙</span>
         <span class="theme-toggle-label">Dark</span>
       </button>
     </div>
   </div>
-
-  <!-- Floating menu window -->
-  <nav class="site-nav-mobile" id="site-nav-mobile">
-    <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
-    <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
-    <a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>
-  </nav>
 </header>
