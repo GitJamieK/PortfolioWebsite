@@ -4,10 +4,11 @@ title: "About"
 permalink: /about/
 ---
 
-I'm Jamie, a **game programmer** interested in gameplay systems, tools, and sometimes engine-side work.
+Hi, again :p i’m Jamie, a game programmer, i like working on gameplay systems, mechanincs, and prototypes.
 
 I enjoy:
-- Implementing gameplay mechanics
+- Designing & implementing responsive mechanics
+- Profiling, debugging, and optimizing game code
 - 
 - 
 
