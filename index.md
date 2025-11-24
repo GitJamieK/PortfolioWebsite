@@ -5,11 +5,6 @@ title: "Jamie k"
 
 Hi, I'm **Jamie**, [check the about! →](/about/)
 
-I enjoy:
-- Designing & implementing responsive mechanics
-- Profiling, debugging, and optimizing game code
-- 
-- 
 
 ### Featured Projects
 
