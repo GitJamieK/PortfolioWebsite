@@ -1,0 +1,15 @@
+title: "Jamie K – Game Developer"
+description: "Game programmer portfolio – projects, demos, and experiments."
+baseurl: ""
+url: "https://jamiek.cc"
+
+theme: minima
+
+# Navigation links (we'll use these later)
+nav_links:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
