@@ -3,6 +3,13 @@
 
 @import "minima";
 
+/* Global box-sizing to keep padding inside widths */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* ------------------------------
    THEME COLORS (DARK DEFAULT)
    ------------------------------ */
@@ -45,8 +52,11 @@
 html,
 body {
   margin: 0;
+  padding: 0;
   background-color: var(--color-bg);
   color: var(--color-text);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
