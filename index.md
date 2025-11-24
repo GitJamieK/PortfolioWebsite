@@ -3,7 +3,7 @@ layout: home
 title: "Jamie k"
 ---
 
-Hi, I'm **Jamie**, a game programmer, i like working on **gameplay systems, mechanincs, and prototypes**.
+Hi, I'm **Jamie**, [check the about! →](/about/)
 
 I enjoy:
 - Designing & implementing responsive mechanics
