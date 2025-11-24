@@ -1,10 +1,23 @@
 ---
 layout: home
-title: "Jamie K – Game Programmer"
+title: "Jamie k"
 ---
 
-Welcome! I'm **Jamie**, a game programmer who loves building games!
+Hi, I'm **Jamie**, a game programmer focused on **gameplay systems, mechanincs, and prototypes**.
 
-This site is a work in progress – but soon it'll showcase:
-- 🔧 projects
-- 🎮 prototypes
+I enjoy:
+- Designing & implementing responsive mechanics
+- Profiling, debugging, and optimizing game code
+
+### Featured Projects
+
+- **Project 1 – TEMP**  
+  description here
+
+- **Project 2 – TEMPr**  
+  description here
+  
+- **Project 3 – TEMP**  
+  description here
+  
+[See all projects →](/projects/)
