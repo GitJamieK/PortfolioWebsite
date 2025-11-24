@@ -1,15 +1,13 @@
 title: "Jamie K – Game Developer"
-description: "Game programmer portfolio – projects, demos, and experiments."
+description: "Game programmer portfolio – gameplay, tools, and technical experiments."
 baseurl: ""
 url: "https://jamiek.cc"
-
 theme: minima
 
-# Navigation links (we'll use these later)
-nav_links:
-  - title: "Home"
-    url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "About"
-    url: /about/
+author:
+  name: "Jamie K"
+  email: "your-email@example.com"
+
+# Social links (only if you have these)
+github_username: GitJamieK
+linkedin_username: your-linkedin-slug
