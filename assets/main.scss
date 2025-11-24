@@ -7,7 +7,7 @@
    THEME COLORS (DARK DEFAULT)
    ------------------------------ */
 :root {
-  --color-bg: #05070b;
+  --color-bg: /* #05070b */ #212121;
   --color-text: #f9fafb;
   --color-muted: #d1d5db;
   --color-border: #1f2937;
@@ -15,8 +15,8 @@
   --color-accent: #60a5fa;
   --color-accent-hover: #93c5fd;
 
-  --color-header-bg: #05070b;
-  --color-footer-bg: #05070b;
+  --color-header-bg: /* #05070b */ #181818;
+  --color-footer-bg: /* #05070b */ #181818;
 }
 
 /* ------------------------------
