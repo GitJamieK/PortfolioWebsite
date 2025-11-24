@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Jamie k"
+title: "home
 ---
 
 Hi, I'm **Jamie**, [check the about! →](/about/)
