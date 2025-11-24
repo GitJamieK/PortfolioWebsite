@@ -6,15 +6,39 @@
         {{ site.title | escape }}
       </a>
 
-      <nav class="site-nav">
+      <!-- Desktop nav -->
+      <nav class="site-nav site-nav-desktop">
         <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
         <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
         <a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>
       </nav>
     </div>
 
-    <button id="theme-toggle" class="theme-toggle">
-      <span class="theme-toggle-icon">🌙</span> Dark
-    </button>
+    <div class="header-right">
+      <button id="theme-toggle" class="theme-toggle" type="button">
+        <span class="theme-toggle-icon">🌙</span>
+        <span class="theme-toggle-label">Dark</span>
+      </button>
+
+      <!-- Mobile nav toggle (hamburger) -->
+      <button
+        id="nav-toggle"
+        class="nav-toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
   </div>
+
+  <!-- Mobile dropdown nav -->
+  <nav class="site-nav-mobile" id="site-nav-mobile">
+    <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
+    <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+    <a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>
+  </nav>
 </header>
