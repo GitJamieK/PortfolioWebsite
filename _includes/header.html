@@ -5,13 +5,6 @@
       <a class="site-title" href="{{ '/' | relative_url }}">
         {{ site.title | escape }}
       </a>
-
-      <!-- Desktop nav -->
-      <nav class="site-nav site-nav-desktop">
-        <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
-        <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
-        <a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>
-      </nav>
     </div>
 
     <div class="header-right">
@@ -20,7 +13,7 @@
         <span class="theme-toggle-label">Dark</span>
       </button>
 
-      <!-- Mobile nav toggle styled like theme toggle -->
+      <!-- Menu button (desktop + mobile) -->
       <button
         id="nav-toggle"
         class="nav-toggle"
@@ -34,7 +27,7 @@
     </div>
   </div>
 
-  <!-- Mobile dropdown nav -->
+  <!-- Floating menu window -->
   <nav class="site-nav-mobile" id="site-nav-mobile">
     <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
     <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
