@@ -81,10 +81,10 @@ a:focus {
    HEADER + NAVIGATION
    ============================================================ */
 .site-header {
+  width: 100%;
+  padding: 0.6rem 2rem;
   background-color: var(--color-header-bg);
-  border: none;
   border-bottom: 1px solid var(--color-border);
-  padding: 0.75rem 0;
 }
 
 .site-header .wrapper {
@@ -95,19 +95,20 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .header-left {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .header-right {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
+  margin-left: auto;
 }
 
 .site-title {
