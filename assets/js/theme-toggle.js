@@ -37,14 +37,14 @@
     });
   }
 
-  /* ============= MOBILE NAV LOGIC ============= */
+  /* ============= MENU TOGGLE LOGIC ============= */
   if (navToggle && mobileNav) {
     navToggle.addEventListener("click", function () {
       const isOpen = root.classList.toggle("nav-open");
       navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
 
-    // Close mobile nav after clicking a link
+    // Close menu after clicking a link
     mobileNav.querySelectorAll(".page-link").forEach(function (link) {
       link.addEventListener("click", function () {
         root.classList.remove("nav-open");
