@@ -1,25 +1,20 @@
 <header class="site-header" role="banner">
   <div class="wrapper header-inner">
+
     <div class="header-left">
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      <a class="site-title" href="{{ '/' | relative_url }}">
         {{ site.title | escape }}
       </a>
 
-      <nav class="site-nav" role="navigation">
-        <a class="page-link" href="{{ "/" | relative_url }}">Home</a>
-        <a class="page-link" href="{{ "/about/" | relative_url }}">About</a>
-        <a class="page-link" href="{{ "/projects/" | relative_url }}">Projects</a>
+      <nav class="site-nav">
+        <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
+        <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+        <a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>
       </nav>
     </div>
 
-    <button
-      id="theme-toggle"
-      class="theme-toggle"
-      type="button"
-      aria-label="Toggle dark / light mode"
-    >
-      <span class="theme-toggle-icon">🌙</span>
-      <span class="theme-toggle-label">Dark</span>
+    <button id="theme-toggle" class="theme-toggle">
+      <span class="theme-toggle-icon">🌙</span> Dark
     </button>
   </div>
 </header>
