@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "home"
+title: "Home"
 ---
 
-Hi, I'm **Jamie**, [check the about! →](/about/)
+Hi, I'm **Jamie**, [check the about page! →](/about/)
 
 
 ### Featured Projects
