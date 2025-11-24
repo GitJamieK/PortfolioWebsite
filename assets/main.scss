@@ -63,7 +63,7 @@ p, li {
 }
 
 /* ------------------------------
-   LINKS (SITE-WIDE CONSISTENCY)
+   LINKS (SITEWIDE CONSISTENCY)
    ------------------------------ */
 a,
 a:visited {
@@ -85,6 +85,11 @@ a:focus {
   border: none;
   border-bottom: 1px solid var(--color-border);
   padding: 0.75rem 0;
+}
+
+/* make sure no stray white background from Minima */
+.site-header .wrapper {
+  background-color: var(--color-header-bg);
 }
 
 .header-inner {
@@ -111,12 +116,15 @@ a:focus {
 .site-nav {
   display: flex;
   gap: 1.5rem;
+  background: transparent !important; /* kill Minimas white mobile bg */
 }
 
 .site-nav .page-link {
   font-size: 0.95rem;
   letter-spacing: 0.03em;
   color: var(--color-text);
+  background: transparent;
+  border: none;
 }
 
 /* ------------------------------
@@ -151,4 +159,25 @@ a:focus {
 
 .theme-toggle-icon {
   font-size: 0.95rem;
+}
+
+/* ------------------------------
+   MOBILE HEADER TWEAKS
+   ------------------------------ */
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .header-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .site-nav {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
 }
