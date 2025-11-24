@@ -6,32 +6,56 @@ permalink: /projects/
 
 Here are some of my favorite game projects.
 
-## Project 1 – Title Here
-*Engine:* Unity C#  
-*Role:* Gameplay Programmer  
+## Project 1
 
-- Short description of what the game is.
-- 2–3 bullet points on what **you** implemented (AI, input, tools, etc.).
-- Link: `[Play on itch.io](https://example.com)` (or download, GitHub, etc.)
+**Role:** Gameplay Programmer  
+**Engine:** Unity (C#)
 
----
+description here---.
 
-## Project 2 – Title Here
-*Engine:* Unity C#  
-*Role:* Gameplay Programmer  
+**What I worked on:**
+- 
+- 
+- 
 
-- Short description of what the game is.
-- 2–3 bullet points on what **you** implemented (AI, input, tools, etc.).
-- Link: `[Play on itch.io](https://example.com)` (or download, GitHub, etc.)
+**Links:**
+- [Playable WebGL build](https://your-itch-link.com)
+- [Source code on GitHub](https://github.com/your-repo)
 
 ---
 
-## Project 3 – Title Here
-*Engine:* Unity C#  
-*Role:* Gameplay Programmer  
+## Project 2
 
-- Short description of what the game is.
-- 2–3 bullet points on what **you** implemented (AI, input, tools, etc.).
-- Link: `[Play on itch.io](https://example.com)` (or download, GitHub, etc.)
+**Role:** Gameplay Programmer  
+**Engine:** Unity (C#)
+
+description here---.
+
+**What I worked on:**
+- 
+- 
+- 
+
+**Links:**
+- [Playable WebGL build](https://your-itch-link.com)
+- [Source code on GitHub](https://github.com/your-repo)
+
+---
+
+## Project 3
+
+**Role:** Gameplay Programmer  
+**Engine:** Unity (C#)
+
+description here---.
+
+**What I worked on:**
+- 
+- 
+- 
+
+**Links:**
+- [Playable WebGL build](https://your-itch-link.com)
+- [Source code on GitHub](https://github.com/your-repo)
 
 ---
