@@ -3,9 +3,9 @@
 
 @import "minima";
 
-/* ------------------------------
+/* ============================================================
    THEME COLORS (DARK DEFAULT)
-   ------------------------------ */
+   ============================================================ */
 :root {
   --color-bg: #05070b;
   --color-text: #f9fafb;
@@ -39,9 +39,9 @@
 :root { color-scheme: dark; }
 :root[data-theme="light"] { color-scheme: light; }
 
-/* ------------------------------
+/* ============================================================
    GLOBAL BODY + TEXT
-   ------------------------------ */
+   ============================================================ */
 html,
 body {
   margin: 0;
@@ -62,9 +62,9 @@ p, li {
   max-width: 960px;
 }
 
-/* ------------------------------
-   LINKS (SITEWIDE CONSISTENCY)
-   ------------------------------ */
+/* ============================================================
+   LINKS (SITE-WIDE CONSISTENCY)
+   ============================================================ */
 a,
 a:visited {
   color: var(--color-accent);
@@ -77,9 +77,9 @@ a:focus {
   text-decoration: underline;
 }
 
-/* ------------------------------
+/* ============================================================
    HEADER + NAVIGATION
-   ------------------------------ */
+   ============================================================ */
 .site-header {
   background-color: var(--color-header-bg);
   border: none;
@@ -87,7 +87,6 @@ a:focus {
   padding: 0.75rem 0;
 }
 
-/* make sure no stray white background from Minima */
 .site-header .wrapper {
   background-color: var(--color-header-bg);
 }
@@ -105,6 +104,12 @@ a:focus {
   gap: 2rem;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
 .site-title {
   font-size: 0.95rem;
   font-weight: 500;
@@ -116,7 +121,7 @@ a:focus {
 .site-nav {
   display: flex;
   gap: 1.5rem;
-  background: transparent !important; /* kill Minimas white mobile bg */
+  background: transparent !important;
 }
 
 .site-nav .page-link {
@@ -127,9 +132,18 @@ a:focus {
   border: none;
 }
 
-/* ------------------------------
+/* Desktop nav / mobile nav visibility */
+.site-nav-desktop {
+  display: flex;
+}
+
+.site-nav-mobile {
+  display: none;
+}
+
+/* ============================================================
    FOOTER
-   ------------------------------ */
+   ============================================================ */
 .site-footer {
   background-color: var(--color-footer-bg);
   border-top: 1px solid var(--color-border);
@@ -137,9 +151,9 @@ a:focus {
   padding-top: 1rem;
 }
 
-/* ------------------------------
+/* ============================================================
    DARK/LIGHT TOGGLE BUTTON
-   ------------------------------ */
+   ============================================================ */
 .theme-toggle {
   border-radius: 999px;
   border: 1px solid var(--color-border);
@@ -161,36 +175,75 @@ a:focus {
   font-size: 0.95rem;
 }
 
-/* ------------------------------
+/* ============================================================
+   MOBILE NAV TOGGLE (HAMBURGER)
+   ============================================================ */
+.nav-toggle {
+  display: none; /* hidden on desktop */
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-toggle-bar {
+  width: 1.3rem;
+  height: 2px;
+  border-radius: 999px;
+  background-color: var(--color-text);
+  display: block;
+}
+
+.nav-toggle-bar + .nav-toggle-bar {
+  margin-top: 3px;
+}
+
+/* Mobile dropdown nav */
+.site-nav-mobile {
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-header-bg);
+  padding: 0.5rem 1.25rem 0.75rem;
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.site-nav-mobile .page-link {
+  color: var(--color-text);
+  font-size: 0.95rem;
+}
+
+/* Show mobile nav when .nav-open is on <html> */
+.nav-open .site-nav-mobile {
+  display: flex;
+}
+
+/* ============================================================
    MOBILE HEADER TWEAKS
-   ------------------------------ */
+   ============================================================ */
 @media (max-width: 768px) {
   .header-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
   }
 
   .header-left {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .site-nav {
+    flex: 1;
+    justify-content: flex-start;
     gap: 1rem;
-    flex-wrap: wrap;
   }
-}
 
-/* Kill Minimas mobile menu completely */
-.site-nav label,
-.menu-icon,
-#nav-trigger {
-  display: none !important;
-}
+  .site-nav-desktop {
+    display: none;
+  }
 
-/* Ensure nav never gets the white dropdown */
-.site-nav {
-  background: transparent !important;
-  box-shadow: none !important;
+  .nav-toggle {
+    display: flex;
+  }
 }
