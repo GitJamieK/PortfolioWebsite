@@ -92,7 +92,7 @@ a:focus {
    ------------------------------ */
 .site-header {
   width: 100%;
-  padding: 0.6rem 2rem;
+  padding: 0.35rem 1.5rem;    /* was 0.6rem 2rem */
   background-color: var(--color-header-bg);
   border-top: none;
   border-bottom: 1px solid var(--color-border);
@@ -106,7 +106,7 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
+  padding: 0.35rem 1.5rem;    /* was 0.5rem 2rem */
 }
 
 .header-left {
@@ -138,7 +138,7 @@ a:focus {
   background-color: var(--color-footer-bg);
   border-top: 1px solid var(--color-border);
   border-bottom: none;
-  padding-top: 1rem;
+  padding: 0.6rem 0;    /* was 1rem */
 }
 
 /* ------------------------------
