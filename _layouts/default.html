@@ -2,15 +2,15 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   <head>
     {%- include head.html -%}
-
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3387YTMK0D"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-3387YTMK0D');
+      function gtag(){ dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-3387YTMK0D", {
+        send_page_view: true,
+      });
     </script>
   </head>
   <body>
