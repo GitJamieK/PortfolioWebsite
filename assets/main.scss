@@ -323,15 +323,11 @@ a:focus {
    MOBILE HEADER TWEAKS
    ------------------------------ */
 @media (max-width: 768px) {
-  .site-header {
-    padding: 0.5rem 1rem;
-  }
-
   .header-inner {
     flex-direction: row;
     align-items: center;
     gap: 0.75rem;
-    padding: 0.5rem 0;
+    padding: 0.3rem 1rem;  /* tighter on mobile */
   }
 
   .header-left {
@@ -340,12 +336,20 @@ a:focus {
     gap: 0.75rem;
   }
 
-  .header-right {
-    margin-left: 0;
-  }
-
   .site-title {
     font-size: 0.8rem;
     letter-spacing: 0.06em;
+  }
+
+  /* Make buttons more compact on small screens */
+  .header-right {
+    gap: 0.5rem;
+  }
+
+  .nav-toggle,
+  .cv-button,
+  .theme-toggle {
+    padding: 0.2rem 0.7rem;
+    font-size: 0.8rem;
   }
 }
