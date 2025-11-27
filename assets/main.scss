@@ -180,6 +180,26 @@ a:focus {
 }
 
 /* ------------------------------
+   Download CV button — same pill style as Menu 
+   ------------------------------ */
+.cv-button {
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+  padding: 0.25rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.cv-button:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+/* ------------------------------
    MENU TOGGLE (PILL STYLE) – DESKTOP + MOBILE
    ------------------------------ */
 .nav-toggle {
@@ -213,7 +233,7 @@ a:focus {
 .site-nav-mobile {
   position: absolute;
   top: calc(100% + 0.5rem);
-  right: 0; /* align right edges of button and window */
+  right: 0;    /* align right edges of button and window */
   background-color: var(--color-header-bg);
   border: 1px solid var(--color-border);
   border-radius: 0.75rem;
@@ -233,6 +253,64 @@ a:focus {
 
 /* Show menu when .nav-open is on <html> */
 .nav-open .site-nav-mobile {
+  display: flex;
+}
+
+/* ------------------------------
+   Download CV modal
+   ------------------------------ */
+.cv-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: none;    /* hidden by default */
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.cv-modal {
+  background-color: var(--color-header-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 0.9rem;
+  padding: 1.25rem 1.5rem;
+  max-width: 90vw;
+  width: 320px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.55);
+}
+
+.cv-modal h2 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 1.05rem;
+}
+
+.cv-modal p {
+  margin: 0 0 1rem 0;
+}
+
+.cv-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.cv-modal-btn {
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+  padding: 0.25rem 0.9rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.cv-modal-btn:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+/* Show modal when html has .cv-open */
+.cv-open .cv-modal-backdrop {
   display: flex;
 }
 
