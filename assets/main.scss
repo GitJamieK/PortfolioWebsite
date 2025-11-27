@@ -141,16 +141,18 @@ a:focus {
   padding: 0.6rem 0;    /* was 1rem */
 }
 
-.site-footer .footer-col-wrapper .footer-col {
-  padding: 0.5rem 0;
-  line-height: 1.6rem;
+.site-footer .footer-col {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .site-footer svg {
   height: 1.25rem;
   width: 1.25rem;
   display: inline-block;
-  vertical-align: middle;
 }
 
 /* ------------------------------
