@@ -29,6 +29,16 @@
         </nav>
       </div>
 
+      <!-- Download CV button -->
+      <button
+        id="cv-button"
+        class="cv-button"
+        type="button"
+        data-cv-url="{{ '/assets/cv/JamieKoflerCV.pdf' | relative_url }}"
+      >
+        Download CV
+      </button>
+
       <!-- Theme toggle (always far right) -->
       <button id="theme-toggle" class="theme-toggle" type="button">
         <span class="theme-toggle-icon">🌙</span>
@@ -37,3 +47,15 @@
     </div>
   </div>
 </header>
+
+<!-- CV DOWNLOAD CONFIRMATION MODAL -->
+<div class="cv-modal-backdrop" id="cv-modal-backdrop" aria-hidden="true">
+  <div class="cv-modal" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title">
+    <h2 id="cv-modal-title">Download CV</h2>
+    <p>Do you want to download <strong>JamieKoflerCV.pdf</strong>?</p>
+    <div class="cv-modal-actions">
+      <button type="button" class="cv-modal-btn cv-modal-confirm" id="cv-confirm">Yes</button>
+      <button type="button" class="cv-modal-btn cv-modal-cancel" id="cv-cancel">No</button>
+    </div>
+  </div>
+</div>
