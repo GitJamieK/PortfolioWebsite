@@ -141,6 +141,17 @@ a:focus {
   padding: 0.6rem 0;    /* was 1rem */
 }
 
+.site-footer .footer-col-wrapper .footer-col {
+  padding: 0.3rem 0;
+}
+
+.site-footer svg {
+  height: 1.15rem;
+  width: 1.15rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* ------------------------------
    DARK/LIGHT TOGGLE BUTTON
    ------------------------------ */
