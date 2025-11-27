@@ -323,33 +323,54 @@ a:focus {
    MOBILE HEADER TWEAKS
    ------------------------------ */
 @media (max-width: 768px) {
+
+  /* Stack title on top, buttons below */
   .header-inner {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.3rem 1rem;  /* tighter on mobile */
-  }
-
-  .header-left {
-    flex: 1;
-    justify-content: flex-start;
-    gap: 0.75rem;
-  }
-
-  .site-title {
-    font-size: 0.8rem;
-    letter-spacing: 0.06em;
-  }
-
-  /* Make buttons more compact on small screens */
-  .header-right {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.6rem 1rem;
     gap: 0.5rem;
   }
 
+  .header-left {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .site-title {
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+  }
+
+  .header-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  /* slightly smaller buttons for mobile */
   .nav-toggle,
   .cv-button,
   .theme-toggle {
-    padding: 0.2rem 0.7rem;
-    font-size: 0.8rem;
+    flex: 1;
+    text-align: center;
+    padding: 0.35rem 0.4rem;
+    font-size: 0.85rem;
+    justify-content: center;
+  }
+
+  /* Center dropdown under menu even in stacked layout */
+  .menu-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .site-nav-mobile {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
