@@ -5,7 +5,9 @@
   const navToggle = document.getElementById("nav-toggle");
   const mobileNav = document.getElementById("site-nav-mobile");
 
-  /* ============= THEME LOGIC ============= */
+  /* ------------------------------
+     THEME LOGIC 
+     ------------------------------ */
   function applyTheme(theme) {
     root.setAttribute("data-theme", theme);
 
@@ -37,7 +39,9 @@
     });
   }
 
-  /* ============= MENU TOGGLE LOGIC ============= */
+  /* ------------------------------ 
+     MENU TOGGLE LOGIC 
+     ------------------------------ */
   if (navToggle && mobileNav) {
     navToggle.addEventListener("click", function () {
       const isOpen = root.classList.toggle("nav-open");
@@ -50,6 +54,49 @@
         root.classList.remove("nav-open");
         navToggle.setAttribute("aria-expanded", "false");
       });
+    });
+  }
+
+  /* ------------------------------
+     CV DOWNLOAD MODAL LOGIC
+     ------------------------------ */
+  const cvButton = document.getElementById("cv-button");
+  const cvBackdrop = document.getElementById("cv-modal-backdrop");
+  const cvConfirm = document.getElementById("cv-confirm");
+  const cvCancel = document.getElementById("cv-cancel");
+
+  if (cvButton && cvBackdrop && cvConfirm && cvCancel) {
+    const cvUrl = cvButton.dataset.cvUrl;
+
+    function openCvModal() {
+      root.classList.add("cv-open");
+      cvBackdrop.setAttribute("aria-hidden", "false");
+    }
+
+    function closeCvModal() {
+      root.classList.remove("cv-open");
+      cvBackdrop.setAttribute("aria-hidden", "true");
+    }
+
+    cvButton.addEventListener("click", openCvModal);
+    cvCancel.addEventListener("click", closeCvModal);
+
+    // Clicking outside modal closes it
+    cvBackdrop.addEventListener("click", function (e) {
+      if (e.target === cvBackdrop) closeCvModal();
+    });
+
+    cvConfirm.addEventListener("click", function () {
+      closeCvModal();
+
+      if (cvUrl) {
+        const link = document.createElement("a");
+        link.href = cvUrl;
+        link.download = "JamieKoflerCV.pdf";
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+      }
     });
   }
 })();
