@@ -154,20 +154,22 @@ a:focus {
   border-top: 1px solid var(--color-border);
   border-bottom: none;
 
-  padding: 1.0rem 0 0.1rem;  /* TOP — 0 - BOTTOM */
+  padding: 0.6rem 0;
 }
 
 .site-footer .footer-col {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
   display: flex;
-  align-items: center;
-  gap: 0.4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.25rem;
+
+  padding: 0.2rem 0;
 }
 
 .site-footer svg {
-  height: 1.0rem;
-  width: 1.0rem;
+  height: 1rem;
+  width: 1rem;
   display: inline-block;
 }
 
