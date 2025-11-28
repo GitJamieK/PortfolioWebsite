@@ -1,4 +1,4 @@
----
+  ---
 ---
 
 @import "minima";
@@ -154,7 +154,7 @@ a:focus {
   border-top: 1px solid var(--color-border);
   border-bottom: none;
 
-  padding: 1.0rem 0 0rem;  /* TOP — 0 - BOTTOM */
+  padding: 0.4rem 0;
 }
 
 .site-footer .footer-col {
@@ -166,8 +166,8 @@ a:focus {
 }
 
 .site-footer svg {
-  height: 1.25rem;
-  width: 1.25rem;
+  height: 1rem;
+  width: 1rem;
   display: inline-block;
 }
 
