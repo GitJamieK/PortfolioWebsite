@@ -154,24 +154,36 @@ a:focus {
   border-top: 1px solid var(--color-border);
   border-bottom: none;
 
-  padding: 0.6rem 0;
-  display: flex;
-  align-items: flex-end;
+  padding: 0.7rem 0;    /* TOP - BOTTOM */
+  font-size: 0.85rem;
 }
 
+.site-footer .footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;    /* vertical centering */
+}
+
+/* each column – small but not squashed */
 .site-footer .footer-col {
+  padding: 0.2rem 1rem;    /* room so columns don’t touch */
+  margin-bottom: 0;    /* remove extra space minima adds */
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  gap: 0.25rem;
-
-  padding: 0.2rem 0;
+  gap: 0.15rem;
 }
 
 .site-footer svg {
-  height: 1rem;
-  width: 1rem;
+  height: 1.1rem;
+  width: 1.1rem;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.site-footer .footer-col a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 /* ------------------------------
    DARK/LIGHT TOGGLE BUTTON
