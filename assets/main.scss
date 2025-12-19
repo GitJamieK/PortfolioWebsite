@@ -352,7 +352,7 @@ a:focus {
 /* ------------------------------
    Featured project images
    ------------------------------ */
-.page-content img:not(.project-thumb-img) {
+.page-content img {
   max-width: 100%;
   height: auto;
   border-radius: 0.9rem;
@@ -362,9 +362,14 @@ a:focus {
 }
 
 .page-content a > img {
-  transition: none;
-  box-shadow: none;
-  transform: none;
+  display: block;
+  border-radius: 0.75rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.page-content a > img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
 }
 
 .project-thumb-link {
@@ -372,35 +377,12 @@ a:focus {
   width: fit-content;
   max-width: 100%;
   line-height: 0;
-  text-decoration: none;
 }
 
-.project-thumb {
-  width: 420px;
+.project-thumb-link img {
+  display: block;
   max-width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 0.9rem;
-  overflow: hidden;
-  border: 1px solid var(--color-border);
-  background: #000;
-
-  display: block;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.project-thumb-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  margin: 0;
-  border: none;
-  border-radius: 0;
-}
-
-.project-thumb-link:hover .project-thumb {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  height: auto;
 }
 
 /* ------------------------------

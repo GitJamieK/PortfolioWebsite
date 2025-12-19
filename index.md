@@ -8,26 +8,24 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 
 ### Featured Projects
 
-### <a href="/projects/hammerwatch2/">Hammerwatch 2</a>
-Action RPG, Hack and slash story based Dungeon Crawler game.
+### [Hammerwatch 2](/projects/hammerwatch2)
+  Action RPG, Hack and slash story based Dungeon Crawler game.
 
 <a class="project-thumb-link" href="/projects/hammerwatch2/">
   <div class="project-thumb">
     <img
-      class="project-thumb-img"
       src="/assets/images/home/hammerwatch2/HW2header.jpg"
       alt="Hammerwatch 2"
     />
   </div>
 </a>
 
-### <a href="/projects/thornbound">Thornbound</a>
-Stealth and story driven shooting horror game.
+### [Thornbound](/projects/thornbound)
+  Stealth and story driven shooting horror game.
 
-<a class="project-thumb-link" href="/projects/thornbound/">
+<a class="project-thumb-link" href="/projects/thornbound">
   <div class="project-thumb">
     <img
-      class="project-thumb-img"
       src="/assets/images/home/thornbound/TBheader.jpg"
       alt="Thornbound"
     />
