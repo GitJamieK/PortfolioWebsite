@@ -9,7 +9,7 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 ### Featured Projects
 
 ### [Hammerwatch 2](/projects/hammerwatch2)
-  Action RPG, Hack and slash sotry based Dungeon Crawler game.
+  Action RPG, Hack and slash story based Dungeon Crawler game.
 
 [![](/assets/images/home/hammerwatch2/HW2header.jpg)](/projects/hammerwatch2/)
 
