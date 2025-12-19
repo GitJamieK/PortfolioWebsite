@@ -22,7 +22,7 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 ### [Thornbound](/projects/thornbound)
   Stealth and story driven shooting horror game.
 
-<a class="project-thumb-link" href="/projects/thornbound>
+<a class="project-thumb-link" href="/projects/thornbound">
   <img
     class="project-thumb"
     src="/assets/images/home/thornbound/TBheader.jpg"
