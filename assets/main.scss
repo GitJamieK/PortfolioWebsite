@@ -367,7 +367,7 @@ a:focus {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.page-content a:hover > img {
+.page-content a > img:hover {
   transform: translateY(-3px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
 }
