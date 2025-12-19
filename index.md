@@ -10,6 +10,7 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 
 ### Hammerwatch 2
 Action RPG, Hack and slash story based Dungeon Crawler game.
+
 <a class="project-thumb-link" href="/projects/hammerwatch2/">
   <img
     class="project-thumb"
@@ -18,8 +19,11 @@ Action RPG, Hack and slash story based Dungeon Crawler game.
   />
 </a>
 
+<div class="project-separator"></div>
+
 ### Thornbound
 Stealth and story driven shooting horror game.
+
 <a class="project-thumb-link" href="/projects/thornbound/">
   <img
     class="project-thumb"
@@ -27,6 +31,8 @@ Stealth and story driven shooting horror game.
     alt="Thornbound"
   />
 </a>
+
+<div class="project-separator"></div>
 
 - **Project 3 – TEMP**  
   description here
