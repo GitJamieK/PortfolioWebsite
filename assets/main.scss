@@ -361,13 +361,15 @@ a:focus {
   margin: 0.75rem 0 1.25rem;
 }
 
-.page-content a img {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.page-content a > img {
+  display: block;
+  border-radius: 0.75rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.page-content a:hover img {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+.page-content a:hover > img {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
 }
 
 /* ------------------------------
