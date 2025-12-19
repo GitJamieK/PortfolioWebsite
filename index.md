@@ -8,8 +8,8 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 
 ### Featured Projects
 
-### [Hammerwatch 2](/projects/hammerwatch2)
-  Action RPG, Hack and slash story based Dungeon Crawler game.
+### <a href="/projects/hammerwatch2/">Hammerwatch 2</a>
+Action RPG, Hack and slash story based Dungeon Crawler game.
 
 <a class="project-thumb-link" href="/projects/hammerwatch2/">
   <div class="project-thumb">
@@ -21,10 +21,10 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
   </div>
 </a>
 
-### [Thornbound](/projects/thornbound)
-  Stealth and story driven shooting horror game.
+### <a href="/projects/thornbound">Thornbound</a>
+Stealth and story driven shooting horror game.
 
-<a class="project-thumb-link" href="/projects/thornbound">
+<a class="project-thumb-link" href="/projects/thornbound/">
   <div class="project-thumb">
     <img
       class="project-thumb-img"
