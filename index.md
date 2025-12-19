@@ -11,7 +11,7 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 ### [Hammerwatch 2](/projects/hammerwatch2)
   Action RPG, Hack and slash sotry based Dungeon Crawler game.
 
-![](/assets/images/home/hammerwatch2/HW2header.jpg)
+[![](/assets/images/home/hammerwatch2/HW2header.jpg)](/projects/hammerwatch2/)
 
 - **Project 2 – TEMP**  
   description here
