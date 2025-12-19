@@ -19,9 +19,17 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
   />
 </a>
 
-- **Project 2 – TEMP**  
-  description here
-  
+### [Thornbound](/projects/thornbound)
+  Stealth and story driven shooting horror game.
+
+<a class="project-thumb-link" href="/projects/thornbound>
+  <img
+    class="project-thumb"
+    src="/assets/images/home/thornbound/TBheader.jpg"
+    alt="Thornbound"
+  />
+</a>
+
 - **Project 3 – TEMP**  
   description here
   
