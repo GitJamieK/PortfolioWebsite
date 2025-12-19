@@ -352,26 +352,8 @@ a:focus {
 /* ------------------------------
    Featured project images
    ------------------------------ */
-.page-content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 0.9rem;
-  border: 1px solid var(--color-border);
-  display: block;
-  margin: 0.75rem 0 1.25rem;
-}
 
-.page-content a > img {
-  display: block;
-  border-radius: 0.75rem;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.page-content a > img:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
-}
-
+/* Only style your project thumbnail images */
 .project-thumb-link {
   display: inline-block;
   width: fit-content;
@@ -379,10 +361,23 @@ a:focus {
   line-height: 0;
 }
 
-.project-thumb-link img {
+/* image itself */
+.project-thumb-link > img.project-thumb {
   display: block;
-  max-width: 100%;
+  max-width: 520px;
+  width: 100%;
   height: auto;
+  border-radius: 0.9rem;
+  border: 1px solid var(--color-border);
+  margin: 0.75rem 0 1.25rem;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* hover ONLY when actually on the image */
+.project-thumb-link > img.project-thumb:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
 }
 
 /* ------------------------------
