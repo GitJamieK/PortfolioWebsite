@@ -372,6 +372,19 @@ a:focus {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
 }
 
+.project-thumb-link {
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
+  line-height: 0;
+}
+
+.project-thumb-link img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ------------------------------
    MOBILE HEADER TWEAKS
    ------------------------------ */

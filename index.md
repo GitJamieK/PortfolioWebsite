@@ -11,10 +11,11 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 ### [Hammerwatch 2](/projects/hammerwatch2)
   Action RPG, Hack and slash story based Dungeon Crawler game.
 
-<a href="/projects/hammerwatch2/">
+<a class="project-thumb-link" href="/projects/hammerwatch2/">
   <img
+    class="project-thumb"
     src="/assets/images/home/hammerwatch2/HW2header.jpg"
-    alt=""
+    alt="Hammerwatch 2"
   />
 </a>
 
