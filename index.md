@@ -13,7 +13,7 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 
 <a href="/projects/hammerwatch2/">
   <img
-    src="/assets/images/projects/hammerwatch2/HW2header.jpg"
+    src="/assets/images/home/hammerwatch2/HW2header.jpg"
     alt=""
   />
 </a>
