@@ -36,5 +36,3 @@ Stealth and story driven shooting horror game.
 
 - **Project 3 – TEMP**  
   description here
-  
-[See all projects →](/projects/)

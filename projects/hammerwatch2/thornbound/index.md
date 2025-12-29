@@ -43,7 +43,7 @@ After changing the whole system to this, some issues came up where the player co
 
 I also made it possible for us to have a pause menu, I started working on it, made it work very simple, then my teammate finished it and made it work much better and look much better.
 
-## ---------------------------------------
+---
 
 In-depth retrospective and what I learned and want to do better; 
 
@@ -82,3 +82,6 @@ When the team planned out the presentation for the Jury day, we kept in mind to 
 ![Thornbound screenshot8](/assets/images/projects/thornbound/tbscreenshot8.jpg)
 
 ![Thornbound screenshot9](/assets/images/projects/thornbound/tbscreenshot9.jpg)
+
+Check out Thornbound here:
+[Thornbound on Itch](https://futuregames.itch.io/thornbound)

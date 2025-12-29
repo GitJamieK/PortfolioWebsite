@@ -4,58 +4,30 @@ title: "Projects"
 permalink: /projects/
 ---
 
-Here are some of my favorite game projects.
+### Featured Projects
 
-## Project 1
+### Hammerwatch 2
+Action RPG, Hack and slash story based Dungeon Crawler game.
 
-**Role:** Gameplay Programmer  
-**Engine:** Unity (C#)
+<a class="project-thumb-link" href="/projects/hammerwatch2/">
+  <img
+    class="project-thumb"
+    src="/assets/images/home/hammerwatch2/HW2header.jpg"
+    alt="Hammerwatch 2"
+  />
+</a>
 
-description here---.
+<div class="project-separator"></div>
 
-**What I worked on:**
-- 
-- 
-- 
+### Thornbound
+Stealth and story driven shooting horror game.
 
-**Links:**
-- [Playable WebGL build](https://your-itch-link.com)
-- [Source code on GitHub](https://github.com/your-repo)
+<a class="project-thumb-link" href="/projects/thornbound/">
+  <img
+    class="project-thumb"
+    src="/assets/images/home/thornbound/TBheader.jpg"
+    alt="Thornbound"
+  />
+</a>
 
----
-
-## Project 2
-
-**Role:** Gameplay Programmer  
-**Engine:** Unity (C#)
-
-description here---.
-
-**What I worked on:**
-- 
-- 
-- 
-
-**Links:**
-- [Playable WebGL build](https://your-itch-link.com)
-- [Source code on GitHub](https://github.com/your-repo)
-
----
-
-## Project 3
-
-**Role:** Gameplay Programmer  
-**Engine:** Unity (C#)
-
-description here---.
-
-**What I worked on:**
-- 
-- 
-- 
-
-**Links:**
-- [Playable WebGL build](https://your-itch-link.com)
-- [Source code on GitHub](https://github.com/your-repo)
-
----
+<div class="project-separator"></div>
