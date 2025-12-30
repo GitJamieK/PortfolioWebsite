@@ -40,7 +40,7 @@ Stealth, dark, puzzle horror game.
 <a class="project-thumb-link" href="/projects/godscountry/">
   <img
     class="project-thumb"
-    src="/assest/images/home/godscountry/GCheader.jpg"
+    src="/assets/images/home/godscountry/GCheader.jpg"
     alt="God's Country"
   />
 </a>
