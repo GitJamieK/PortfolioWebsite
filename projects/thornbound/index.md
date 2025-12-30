@@ -43,8 +43,7 @@ After changing the whole system to this, some issues came up where the player co
 
 I also made it possible for us to have a pause menu, I started working on it, made it work very simple, then my teammate finished it and made it work much better and look much better.
 
----
-
+<div class="project-separator"></div>
 
 In-depth retrospective and what I learned and want to do better; 
 
