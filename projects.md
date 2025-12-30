@@ -17,7 +17,7 @@ Action RPG, Hack and slash story based Dungeon Crawler game.
   />
 </a>
 
-<div class="project-separator"></div>
+<div class="separator"></div>
 
 ### Thornbound
 Stealth and story driven shooting horror game.
@@ -30,7 +30,7 @@ Stealth and story driven shooting horror game.
   />
 </a>
 
-<div class="project-separator"></div>
+<div class="separator"></div>
 
 ### God's Country
 Stealth, dark, puzzle horror game.

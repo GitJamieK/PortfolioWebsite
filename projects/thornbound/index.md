@@ -6,6 +6,8 @@ permalink: /projects/thornbound/
 
 ## My contributions on Thornbound!
 
+<div class="separator"></div>
+
 During the development of Thornbound/GP3, I was a programmer and tasked to create a major feature of the game, the interactive system. This enables the player to interact with things such as doors, statue pedestals/pillars and paper notes as well as picking up items such as healing items, ammo items, and of course the statues the player needs to progress through the game.
  
 My first thought was to make a system where the player has to go close to the desired item, then the player should need to look at or towards the item, of course be in a specific range to the item to enable the pickup, then a small indicator/widget shows that the player can pick up this item, then the player should be able to simply press E to interact with the item and pick it up.
@@ -43,7 +45,7 @@ After changing the whole system to this, some issues came up where the player co
 
 I also made it possible for us to have a pause menu, I started working on it, made it work very simple, then my teammate finished it and made it work much better and look much better.
 
-<div class="project-separator"></div>
+<div class="separator"></div>
 
 In-depth retrospective and what I learned and want to do better; 
 
@@ -62,6 +64,7 @@ When the team planned out the presentation for the Jury day, we kept in mind to 
  
 -Jamie 
 
+<div class="separator"></div>
 
 ## Here are some Thornbound Images!
 
@@ -82,6 +85,8 @@ When the team planned out the presentation for the Jury day, we kept in mind to 
 ![Thornbound screenshot8](/assets/images/projects/thornbound/tbscreenshot8.jpg)
 
 ![Thornbound screenshot9](/assets/images/projects/thornbound/tbscreenshot9.jpg)
+
+<div class="separator"></div>
 
 Check out Thornbound here:
 [Thornbound on Itch](https://futuregames.itch.io/thornbound)
