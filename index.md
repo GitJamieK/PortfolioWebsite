@@ -34,5 +34,13 @@ Stealth and story driven shooting horror game.
 
 <div class="project-separator"></div>
 
-- **Project 3 – TEMP**  
-  description here
+### God's Country
+Stealth, dark, puzzle horror game.
+
+<a class="project-thumb-link" href="/projects/godscountry/">
+  <img
+    class="project-thumb"
+    src="/assest/images/home/godscountry/GCheader.jpg"
+    alt="God's Country"
+  />
+</a>

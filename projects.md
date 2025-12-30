@@ -31,3 +31,14 @@ Stealth and story driven shooting horror game.
 </a>
 
 <div class="project-separator"></div>
+
+### God's Country
+Stealth, dark, puzzle horror game.
+
+<a class="project-thumb-link" href="/projects/godscountry/">
+  <img
+    class="project-thumb"
+    src="/assest/images/home/godscountry/GCheader.jpg"
+    alt="God's Country"
+  />
+</a>
