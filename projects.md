@@ -19,6 +19,19 @@ Action RPG, Hack and slash story based Dungeon Crawler game.
 
 <div class="separator"></div>
 
+### Hammerwatch Anniversary Edition
+Action, Adventure, RPG, Hack and Slash, Dungeon Crawler game.
+
+<a class="project-thumb-link" href="/projects/hammerwatchanniversary/">
+  <img
+    class="project-thumb"
+    src="/assets/images/home/hammerwatchanniversary/HWAheader.jpg"
+    alt="Hammerwatch Anniversary Edition"
+  />
+</a>
+
+<div class="separator"></div>
+
 ### Thornbound
 Stealth and story driven shooting horror game.
 
@@ -33,7 +46,7 @@ Stealth and story driven shooting horror game.
 <div class="separator"></div>
 
 ### God's Country
-Stealth, dark, puzzle horror game.
+First person stealth, Dark, Puzzle Horror game.
 
 <a class="project-thumb-link" href="/projects/godscountry/">
   <img
@@ -42,3 +55,5 @@ Stealth, dark, puzzle horror game.
     alt="God's Country"
   />
 </a>
+
+<div class="separator"></div>
