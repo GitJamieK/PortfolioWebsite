@@ -8,4 +8,4 @@ permalink: /projects/hammerwatch2/
 
 description here
 
-![Pixel Purge screenshot](/assets/images/projects/hammerwatch2/hw2screenshot1.jpg)
+![Hammerwatch 2 Screenshot 1](/assets/images/projects/hammerwatch2/hw2screenshot1.jpg)

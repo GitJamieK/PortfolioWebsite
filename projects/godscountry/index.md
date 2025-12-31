@@ -8,4 +8,4 @@ permalink: /projects/godscountry/
 
 description here
 
-![Gods Country Image](/assets/images/home/godscountry/GCheader.jpg) <!-- TEMP IMAGE -->
+![Gods Country Screenshot 1](/assets/images/home/godscountry/GCheader.jpg) <!-- TEMP IMAGE -->

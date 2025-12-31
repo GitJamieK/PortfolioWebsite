@@ -8,4 +8,4 @@ permalink: /projects/hammerwatchanniversary/
 
 description here
 
-![Hammerwatch Anniversary Edition Image](/assets/images/projects/hammerwatchanniversary/hwascreenshot1.jpg)
+![Hammerwatch Anniversary Edition Screenshot 1](/assets/images/projects/hammerwatchanniversary/hwascreenshot1.jpg)
