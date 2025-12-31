@@ -5,6 +5,7 @@ title: "Home"
 
 Hi, I'm **Jamie**, [check the about page! →](/about/)
 
+<div class="separator"></div>
 
 ### Featured Projects
 
