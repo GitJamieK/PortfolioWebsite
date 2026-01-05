@@ -49,7 +49,7 @@ Stealth and story driven shooting horror game.
 <div class="separator"></div>
 
 ### Little Sprout
-Cozy puzzle, collector game.
+Cozy puzzle, collector, platformer game.
 
 <a class="project-thumb-link" href="/projects/littlesprout/">
   <img
