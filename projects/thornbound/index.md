@@ -31,6 +31,7 @@ A little more about the items; First, I made a BP_MasterItem that all items shou
 When creating an item that should be able to be picked up it is important to make it a child to the MasterItem in order for the interaction to actually work, it is also necessary to give the item a sphere which has specific collision settings.
 
 ![TB item collision](/assets/images/projects/thornbound/thornboundImage-003.jpg)
+
 ![TB item showcase](/assets/images/projects/thornbound/thornboundImage-004.jpg)
 
 What this does is that the interact only works when ONLY the player is overlapping with the item. Another thing that was important was that these settings were applied to the StaticMesh on the item for the trace to be able to find it and overlap with it, also making it able to be picked up.

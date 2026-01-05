@@ -18,32 +18,39 @@ Since the controller only had two buttons, we designed the character to walk aut
 
 By the second week, we had the movement, multiple levels, animations, and some assets ready for testing. We were lucky to see kids play the game in a museum (Tekniska museet) and used their feedback to make the levels easier to navigate. In the third week, we polished the game by adding intro and outro animations, more art assets, an improved menu, and music made by one of our artists.
 
+<div class="separator"></div>
+
 ## My contributions on Little Sprout!
 
 <div class="separator"></div>
 
 I’ve worked on mostly 3 things The “vines/platforms”, The collectibles and high score system, and the UI within the main menu.
  
-1. The Vines, I will provide images below. The vines are “toggleable” and made to “grow” and retract, they act as a wall that blocks the player from going in that direction or as a platform the player can move on. The issue here was that the player sometimes would get stuck on the edge of a platform/vine and it took a little help from the other team members to solve it!
+The Vines, I will provide images below. The vines are “toggleable” and made to “grow” and retract, they act as a wall that blocks the player from going in that direction or as a platform the player can move on. The issue here was that the player sometimes would get stuck on the edge of a platform/vine and it took a little help from the other team members to solve it!
 
 ![Little Sprout vine image](/assets/images/projects/littlesprout/littlesproutImage-000.jpg)
+
 ![Little Sprout vine toggle image](/assets/images/projects/littlesprout/littlesproutImage-001.jpg)
 
-2. The collectible item. The item is meant to be seen as a fun high score thing to collect while exploring the game! They will be collected upon collision with the player and will update a UI element meant as a high score. When collecting a small particle effect plays. The challenge with this was to make it look nice and where it felt like something to collect, but with help from the artists and designers it was easily solved!
+The collectible item. The item is meant to be seen as a fun high score thing to collect while exploring the game! They will be collected upon collision with the player and will update a UI element meant as a high score. When collecting a small particle effect plays. The challenge with this was to make it look nice and where it felt like something to collect, but with help from the artists and designers it was easily solved!
 
 ![Little Sprout collectible item image](/assets/images/projects/littlesprout/littlesproutImage-002.jpg)
+
 ![Little Sprout collectible icon image](/assets/images/projects/littlesprout/littlesproutImage-003.jpg)
+
 ![Little Sprout collectible item image](/assets/images/projects/littlesprout/littlesproutImage-004.jpg)
 
-3. The UI. The UI was from the beginning meant to be very easy to understand with minimal buttons/choices to meet the target audience well and not cause any difficulties and confusion. I made sure that the UI was easy to navigate with the choice of a maximum amount of 3 buttons on each “page” and a nicely explained tutorial on how to navigate it using images.
+The UI. The UI was from the beginning meant to be very easy to understand with minimal buttons/choices to meet the target audience well and not cause any difficulties and confusion. I made sure that the UI was easy to navigate with the choice of a maximum amount of 3 buttons on each “page” and a nicely explained tutorial on how to navigate it using images.
 
 ![Little Sprout UI image](/assets/images/projects/littlesprout/littlesproutImage-005.jpg)
+
 ![Little Sprout UI image](/assets/images/projects/littlesprout/littlesproutImage-006.jpg)
+
 ![Little Sprout UI image](/assets/images/projects/littlesprout/littlesproutImage-007.jpg)
 
 The challenge with this definitely was the accessibility controller. It seemed to be very sensitive with the input. A few people from the team helped to try and solve this but it was indeed very tricky. It was somewhat solved but still not perfect.
 
-4. I also helped anybody that needed assistance with anything and tried to provide the best help i can. Me and the other programmers also had many discussions about my code/their code and made sure to help each other as much as we could.
+I also helped anybody that needed assistance with anything and tried to provide the best help i can. Me and the other programmers also had many discussions about my code/their code and made sure to help each other as much as we could.
 
 -Jamie
 
