@@ -48,6 +48,19 @@ Stealth and story driven shooting horror game.
 
 <div class="separator"></div>
 
+### Little Sprout
+Cozy puzzle, collector game.
+
+<a class="project-thumb-link" href="/projects/littlesprout/">
+  <img
+    class="project-thumb"
+    src="/assets/images/home/littlesprout/LSheader.jpg"
+    alt="Little Sprout"
+  />
+</a>
+
+<div class="separator"></div>
+
 ### God's Country
 First person stealth, Dark, Puzzle Horror game.
 
