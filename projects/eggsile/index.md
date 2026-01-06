@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eggsile
-permalink: /projects/eggsile
+permalink: /projects/eggsile/
 ---
 
 ## Eggsile
