@@ -10,6 +10,15 @@ permalink: /projects/eggsile/
 
 ![Eggsile screenshot 1](/assets/images/projects/eggsile/esscreenshot1.jpg)
 
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/d3kpZYnNpOQ"
+    title="Eggsile trailer"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+
 I was a programmer during Eggsile, and I was responsible for 1 main, crucial mechanic in our game, The Throw/pickup/catch egg mechanic.
 
 During Eggsile, I was responsible for implementing a core gameplay mechanic: the throw, pickup, and catch egg mechanic. This mechanic played a crucial role in the overall gameplay experience and required careful planning, implementation, and debugging.
