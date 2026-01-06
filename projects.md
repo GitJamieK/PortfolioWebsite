@@ -48,7 +48,7 @@ Stealth and story driven shooting horror game.
 ### Eggsile
 Cozy puzzle, co-op, platformer game.
 
-<a class="project-thumb-link" href="/projects/eggsile/>
+<a class="project-thumb-link" href="/projects/eggsile/">
   <img
     class="project-thumb"
     src="/assets/images/home/eggsile/esHeader.jpg"
