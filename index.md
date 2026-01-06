@@ -48,6 +48,19 @@ Stealth and story driven shooting horror game.
 
 <div class="separator"></div>
 
+### Eggsile
+Cozy puzzle, co-op, platformer game.
+
+<a class="project-thumb-link" href="/projects/eggsile/>
+  <img
+    class="project-thumb"
+    src="/assets/images/home/eggsile/esHeader.jpg"
+    alt="Eggsile"
+  />
+</a>
+
+<div class="separator"></div>
+
 ### Little Sprout
 Cozy puzzle, collector, platformer game.
 
