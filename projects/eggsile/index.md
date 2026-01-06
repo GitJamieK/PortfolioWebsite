@@ -4,7 +4,7 @@ title: Eggsile
 permalink: /projects/eggsile/
 ---
 
-## Eggsile
+## My contributions on Eggsile!
 
 <div class="separator"></div>
 
