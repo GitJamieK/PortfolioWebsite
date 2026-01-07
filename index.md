@@ -9,6 +9,8 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 
 ### Featured projects / games i have worked on / Contributed to
 
+<div class="separator"></div>
+
 ### Hammerwatch 2
 Action RPG, Hack and slash story based Dungeon Crawler game.
 
