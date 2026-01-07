@@ -4,6 +4,9 @@ title: "About"
 permalink: /about/
 ---
 
+Work in progress!
+
+<!--
 Hi, again :p i’m Jamie, a game programmer, i like working on gameplay systems, mechanincs, and prototypes.
 
 I enjoy:
@@ -19,3 +22,4 @@ I'm comfortable with:
 
 If you'd like to reach out, you can contact me at:  
 `koflerjamie@gmail.com`
+-->
