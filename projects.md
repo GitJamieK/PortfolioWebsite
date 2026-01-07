@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /projects/
 ---
 
-### Featured Projects
+### Featured projects / games i have worked on / Contributed to
 
 ### Hammerwatch 2
 Action RPG, Hack and slash story based Dungeon Crawler game.
