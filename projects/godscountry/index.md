@@ -9,7 +9,7 @@ permalink: /projects/godscountry/
 <div class="separator"></div>
 
 ![god's country screenshot 1](/assets/images/projects/godscountry/gcscreenshot1.jpg)
-'
+
 <div class="video-embed">
   <iframe
     src="https://www.youtube.com/embed/MDQkfB08SCc"
