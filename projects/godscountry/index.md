@@ -12,7 +12,7 @@ permalink: /projects/godscountry/
 '
 <div class="video-embed">
   <iframe
-    src="https://youtu.be/MDQkfB08SCc"
+    src="https://www.youtube.com/embed/MDQkfB08SCc"
     title="God's Country Trailer"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen
