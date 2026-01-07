@@ -7,7 +7,7 @@ Hi, I'm **Jamie**, [check the about page! →](/about/)
 
 <div class="separator"></div>
 
-### ╭ Featured projects / games i have worked on / Contributed to
+### Featured projects / games i have worked on / Contributed to ↴
 
 <div class="separator"></div>
 
