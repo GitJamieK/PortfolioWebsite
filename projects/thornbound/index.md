@@ -8,6 +8,17 @@ permalink: /projects/thornbound/
 
 <div class="separator"></div>
 
+![TB HeaderImage](/assets/images/home/thornbound/TBheader.jpg)
+
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/YkeUtlVn1U0"
+    title="Thornbound Trailer"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+
 During the development of Thornbound/GP3, I was a programmer and tasked to create a major feature of the game, the interactive system. This enables the player to interact with things such as doors, statue pedestals/pillars and paper notes as well as picking up items such as healing items, ammo items, and of course the statues the player needs to progress through the game.
  
 My first thought was to make a system where the player has to go close to the desired item, then the player should need to look at or towards the item, of course be in a specific range to the item to enable the pickup, then a small indicator/widget shows that the player can pick up this item, then the player should be able to simply press E to interact with the item and pick it up.
