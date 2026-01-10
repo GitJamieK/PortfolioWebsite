@@ -1,25 +1,55 @@
 ---
 layout: page
-title: "About"
+title: "About me!"
 permalink: /about/
 ---
 
-Work in progress!
+My name is Jamie and i am currently studying game programming at Futuregames in Stockholm Sweden!
 
-<!--
-Hi, again :p i’m Jamie, a game programmer, i like working on gameplay systems, mechanincs, and prototypes.
+<div class="separator"></div>
 
-I enjoy:
-- Designing & implementing responsive mechanics
-- Profiling, debugging, and optimizing game code
-- 
-- 
+I’m a passionate and driven game developer with about 3 years of experience
+working with game tools, systems, programming, and development workflows.
+I’m constantly learning, improving, and applying what I’ve gained from both my
+education and hands-on projects. I’m eager to bring my enthusiasm, teamwork,
+and problem-solving skills to a game studio and contribute to creating great
+player experiences.
 
-I'm comfortable with:
-- C#, Unity
-- C++, Unreal
-- Git, Perforce, SVN
+<div class="separator"></div>
+
+## Some of my Interest and hobbies ↴
+
+- Computer Assembly / Building
+
+- Old school / Retro technology
+
+- Video Games
+
+- Science
+
+- Puzzle / problem solving
+
+<div class="separator"></div>
+
+## Game Development things i use ↴
+
+- C#, C++, JavaScript, XML, HTML, CSS
+
+- Unity Engine
+
+- Unreal Engine
+
+- (want to use Godot more!)
+
+- Git, SVN, Perforce
+
+- Vim, Neovim
+
+On my main PC / system i do use Linux!
+
+<div class="separator"></div>
 
 If you'd like to reach out, you can contact me at:  
-`koflerjamie@gmail.com`
--->
+- Email: [koflerjamie@gmail.com](mailto:koflerjamie@gmail.com?subject=Portfolio%20contact&body=Hi%20Jamie%2C%0A%0A)
+
+<div class="separator"></div>
