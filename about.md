@@ -29,6 +29,8 @@ player experiences.
 
 - Puzzle / problem solving
 
+- All things Linux 🐧
+
 <div class="separator"></div>
 
 ## Game Development things i use ↴
