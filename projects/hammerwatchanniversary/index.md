@@ -6,6 +6,6 @@ permalink: /projects/hammerwatchanniversary/
 
 ## Hammerwatch Anniversary Edition
 
-description here
+Documentation coming soon!
 
 ![Hammerwatch Anniversary Edition Screenshot 1](/assets/images/projects/hammerwatchanniversary/hwascreenshot1.jpg)
