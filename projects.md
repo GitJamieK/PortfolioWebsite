@@ -81,3 +81,16 @@ First person stealth, Dark, Puzzle Horror game.
 </a>
 
 <div class="separator"></div>
+
+### Lightspeed
+Small group project game made within 1 week during the Game Programming course.
+
+<a class="project-thumb-link" href="/projects/lightspeed/">
+  <img
+    class="project-thumb"
+    src="/assets/images/home/lightspeed/Lightspeedheader.jpg"
+    alt="Lightspeed"
+  />
+</a>
+
+<div class="separator"></div>
