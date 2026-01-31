@@ -24,6 +24,12 @@
 
   --color-header-bg: /* #05070b */ #020409;
   --color-footer-bg: /* #05070b */ #020409;
+
+  --color-code-bg: #0b1220;
+  --color-code-text: #e5e7eb;
+  --color-code-border: #1f2937;
+  --color-code-inline-bg: #111827;
+  --color-code-inline-text: #e5e7eb;
 }
 
 /* ------------------------------
@@ -40,6 +46,12 @@
 
   --color-header-bg: #ffffff;
   --color-footer-bg: #f9fafb;
+
+  --color-code-bg: #eef2ff;
+  --color-code-text: #111827;
+  --color-code-border: #e5e7eb;
+  --color-code-inline-bg: #eef2ff;
+  --color-code-inline-text: #111827;
 }
 
 /* Let browser UI follow theme */
@@ -65,6 +77,36 @@ h1, h2, h3, h4, h5, h6 {
 
 p, li {
   color: var(--color-muted);
+}
+
+/* ------------------------------
+   CODE BLOCKS + INLINE CODE
+   ------------------------------ */
+pre,
+pre.highlight,
+.highlighter-rouge pre,
+.highlighter-rouge .highlight {
+  background-color: var(--color-code-bg);
+  color: var(--color-code-text);
+  border: 1px solid var(--color-code-border);
+  border-radius: 0.5rem;
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+}
+
+code {
+  background-color: var(--color-code-inline-bg);
+  color: var(--color-code-inline-text);
+  border: 1px solid var(--color-code-border);
+  border-radius: 0.35rem;
+  padding: 0.12rem 0.35rem;
+}
+
+pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: inherit;
 }
 
 /* Limit page width */
