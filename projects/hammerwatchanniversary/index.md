@@ -12,7 +12,7 @@ permalink: /projects/hammerwatchanniversary/
 
 <div class="video-embed">
   <iframe
-    src="https://www.youtube.com/embed/auWorIiMUg"
+    src="https://www.youtube.com/embed/-auWorIiMUg"
     title="Hammerwatch Anniversary Edition Launch Trailer"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen
