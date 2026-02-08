@@ -4,7 +4,7 @@ title: Thornbound
 permalink: /projects/thornbound/
 ---
 
-## My contributions on Thornbound!
+## My contributions to Thornbound!
 
 <div class="separator"></div>
 

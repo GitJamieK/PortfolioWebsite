@@ -4,7 +4,7 @@ title: Lightspeed
 permalink: /projects/lightspeed/
 ---
 
-## My contributions on Lightspeed
+## My contributions to Lightspeed
 
 <div class="separator"></div>
 

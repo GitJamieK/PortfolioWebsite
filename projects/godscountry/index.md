@@ -4,7 +4,7 @@ title: God's Country
 permalink: /projects/godscountry/
 ---
 
-## My contributions on God's Country
+## My contributions to God's Country
 
 <div class="separator"></div>
 

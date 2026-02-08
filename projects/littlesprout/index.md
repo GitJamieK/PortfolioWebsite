@@ -20,7 +20,7 @@ By the second week, we had the movement, multiple levels, animations, and some a
 
 <div class="separator"></div>
 
-## My contributions on Little Sprout!
+## My contributions to Little Sprout!
 
 <div class="separator"></div>
 
