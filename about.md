@@ -53,5 +53,6 @@ On my main PC / system i do use Linux!
 
 If you'd like to reach out, you can contact me at:  
 - Email: [koflerjamie@gmail.com](mailto:koflerjamie@gmail.com?subject=Portfolio%20contact&body=Hi%20Jamie%2C%0A%0A)
+- Steam: [Jamie](https://steamcommunity.com/id/Jamiek0/)
 
 <div class="separator"></div>
