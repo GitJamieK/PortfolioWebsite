@@ -53,5 +53,3 @@ Due to no longer having access to the internal editor or level files, I am unabl
 
 Check out Hammerwatch Anniversary Edition here!
 [HwAE on Steam!](https://store.steampowered.com/app/1905530/Hammerwatch_Anniversary_Edition/)
-
-![Hammerwatch Anniversary Edition Screenshot 1](/assets/images/projects/hammerwatchanniversary/hwaescreenshot2_TEMP.jpg)
