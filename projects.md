@@ -43,6 +43,19 @@ Stealth and story driven shooting horror game.
 
 <div class="separator"></div>
 
+### Pixel Purge
+Small solo project in C# Unity done over a couple of weeks during a school course.
+
+<a class="project-thumb-link" href="/projects/pixelpurge/">
+  <img
+    class="project-thumb"
+    src="/assets/images/home/pixelpurge/PPheader.jpg"
+    alt="Pixel Purge"
+  />
+</a>
+
+<div class="separator"></div>
+
 ### Eggsile
 Cozy puzzle, co-op, platformer game.
 
