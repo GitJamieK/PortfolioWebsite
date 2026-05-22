@@ -47,7 +47,9 @@ player experiences.
 
 - Vim, Neovim
 
-On my main PC / system i do use Linux!
+- Blender
+
+On my main PC / system i do use Linux! (Arch btw!) 
 
 <div class="separator"></div>
 
