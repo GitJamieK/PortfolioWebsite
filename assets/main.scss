@@ -30,6 +30,15 @@
   --color-code-border: #1f2937;
   --color-code-inline-bg: #111827;
   --color-code-inline-text: #e5e7eb;
+
+  --syntax-comment: #8b949e;
+  --syntax-keyword: #ff7b72;
+  --syntax-type: #79c0ff;
+  --syntax-string: #a5d6ff;
+  --syntax-number: #79c0ff;
+  --syntax-function: #d2a8ff;
+  --syntax-class: #ffa657;
+  --syntax-preproc: #ff7b72;
 }
 
 /* ------------------------------
@@ -52,6 +61,15 @@
   --color-code-border: #e5e7eb;
   --color-code-inline-bg: #eef2ff;
   --color-code-inline-text: #111827;
+
+  --syntax-comment: #6e7781;
+  --syntax-keyword: #cf222e;
+  --syntax-type: #0550ae;
+  --syntax-string: #0a3069;
+  --syntax-number: #0550ae;
+  --syntax-function: #8250df;
+  --syntax-class: #953800;
+  --syntax-preproc: #cf222e;
 }
 
 /* Let browser UI follow theme */
@@ -107,6 +125,65 @@ pre code {
   border: 0;
   padding: 0;
   color: inherit;
+}
+
+/* ------------------------------
+   SYNTAX COLORS (```cpp blocks), override minima's light-only palette
+   ------------------------------ */
+.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: var(--syntax-comment);
+  font-style: italic;
+  font-weight: normal;
+}
+
+.highlight .cp, .highlight .cpf {
+  color: var(--syntax-preproc);
+  font-weight: normal;
+}
+
+.highlight .k, .highlight .kd, .highlight .kp, .highlight .kr, .highlight .kc, .highlight .kn {
+  color: var(--syntax-keyword);
+  font-weight: normal;
+}
+
+.highlight .kt {
+  color: var(--syntax-type);
+  font-weight: normal;
+}
+
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc,
+.highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
+  color: var(--syntax-string);
+}
+
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo {
+  color: var(--syntax-number);
+}
+
+.highlight .nf, .highlight .fm {
+  color: var(--syntax-function);
+  font-weight: normal;
+}
+
+.highlight .nc, .highlight .nn, .highlight .ne {
+  color: var(--syntax-class);
+  font-weight: normal;
+}
+
+.highlight .n, .highlight .nb, .highlight .bp, .highlight .no, .highlight .nl,
+.highlight .nv, .highlight .na, .highlight .nt, .highlight .p, .highlight .w {
+  color: var(--color-code-text);
+  font-weight: normal;
+}
+
+.highlight .o, .highlight .ow {
+  color: var(--color-code-text);
+  font-weight: normal;
+}
+
+.highlight .err {
+  color: inherit;
+  background-color: transparent;
 }
 
 /* Limit page width */

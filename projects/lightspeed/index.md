@@ -8,7 +8,7 @@ permalink: /projects/lightspeed/
 
 <div class="separator"></div>
 
-![Lightspeed menu screenshot](/assets/images/home/Lightspeed/Lightspeedheader.jpg)
+![Lightspeed menu screenshot](/assets/images/home/lightspeed/Lightspeedheader.jpg)
 
 I implemented a procedural spline-based track generator in Unreal Engine 5 using C++.
 

@@ -4,6 +4,19 @@ title: "Projects"
 permalink: /projects/
 ---
 
+### Stockholm1646
+Cinematic historical RPG set at an inn in 1646 Stockholm.
+
+<a class="project-thumb-link" href="/projects/stockholm1646/">
+  <img
+    class="project-thumb"
+    src="/assets/images/home/stockholm1646/S1646header.jpg"
+    alt="Stockholm1646"
+  />
+</a>
+
+<div class="separator"></div>
+
 ### Hammerwatch 2
 Action RPG, Hack and slash story based Dungeon Crawler game.
 
